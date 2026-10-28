@@ -1,0 +1,38 @@
+{
+  "desde_local_inclusive": "2026-08-01",
+  "hasta_local_inclusive": "2026-09-30",
+  "indicadores": {
+    "600": {
+      "filas_archivos_leidos": 65664,
+      "filas_silver": 5856,
+      "filas_invalidas": 0,
+      "filas_duplicadas_en_grupo": 0,
+      "archivos_leidos": 4,
+      "geo_id": 3,
+      "horas_precio_parciales": 0,
+      "horas_con_datos": 1464
+    },
+    "544": {
+      "filas_archivos_leidos": 32832,
+      "filas_silver": 17568,
+      "filas_invalidas": 0,
+      "filas_duplicadas_en_grupo": 0,
+      "archivos_leidos": 4,
+      "geo_id": 8741,
+      "horas_precio_parciales": 0,
+      "horas_con_datos": 1464
+    },
+    "542": {
+      "filas_archivos_leidos": 10944,
+      "filas_silver": 5856,
+      "filas_invalidas": 0,
+      "filas_duplicadas_en_grupo": 0,
+      "archivos_leidos": 4,
+      "geo_id": 8741,
+      "horas_precio_parciales": 0,
+      "horas_con_datos": 1464
+    }
+  },
+  "filas_gold": 1296,
+  "aviso": "Confirmar unidad de indicador 600 y disponibilidad de datos antes de entrenar."
+}

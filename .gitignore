@@ -1,0 +1,60 @@
+
+# =====================================
+# GridMind AI - Git Ignore
+# =====================================
+
+# Entornos virtuales y secretos
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================================
+# DATOS PESADOS - NO SUBIR
+# =====================================
+
+# Datos originales de e·sios
+/data/raw/
+
+# CSV históricos consolidados
+/data/unified/
+
+# Datos Silver y Gold completos
+/data/processed/silver/
+/data/processed/gold/
+
+# CSV generados en processed
+/data/processed/*.csv
+
+# Fragmentos y descargas temporales
+/data/partes_actualizacion/
+*.tmp
+
+# =====================================
+# CONSERVAR EN GITHUB
+# =====================================
+
+# Informe de calidad de la entrega
+!/data/processed/informe_entrega02.json
+
+# Muestra pequeña para reproducibilidad
+!/data/sample/
+!/data/sample/muestra_gridmind_gold.csv
+
+# Código, documentación y configuración
+# Se suben normalmente; no están ignorados.
